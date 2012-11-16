@@ -1,0 +1,253 @@
+﻿
+/*****************************************************************************************/
+/*
+	AJE 13-Oct-2009: begin section copied from new CRL.edu:
+		http://www.crl.edu/sites/default/themes/crl/style.css?f
+
+	try to make botlogo look like new site
+*/
+img {border:0;}
+
+#container { width:972px; margin:0 auto; }
+
+#header img { margin-top:20px; margin-bottom:20px; float:left;}
+#header h1 , #header h2 {font-family:Georgia,"Times New Roman",Times,serif; font-size:4.0em; font-weight:normal; margin:20px 0 0 0; line-height:1.2; display:inline; color:#343354; float:right;}
+
+/* for JSTOR scope titles */
+#scopeTitle { float:right; width:auto; margin-top:4px;}
+#scopeTitle h1, #scopeTitle h2 { font-size:3.0em; margin:0; text-align:right; float:none; display:block; }
+#scopeTitle .generalTitle {  color:#958f5c; }
+#scopeTitle .specificTitle { color:#343354; }
+/*AJE 06-Jun-11 add definitions for new scopes with longer names, make them fit on top */
+#scopeTitleSmaller h1, #scopeTitleSmaller h2 { font-size:2.0em; margin:0; text-align:right; float:none; display:block; }
+#scopeTitleSmaller .generalTitle {  color:#958f5c; }
+#scopeTitleSmaller .specificTitle { color:#343354; }
+
+#content { clear:both; background-color: #BFCCA8; border:1px solid #a8a8a5; position:relative;
+ z-index:10; width:100%; }
+
+#page {padding:20px 50px 50px 50px; width:872px; background-color:#ffffff; }
+#page h3 {margin-top:2.0em;}
+
+/* AJE 1 June 2011: added position + z-index to searchType + searchBox, addressing issue where IE has the border ib searchBox showing through the text in searchType */
+.searchType { position:relative; top:0px; left:0px; z-index:2;
+	background-color:#37375e; color:#ffffff; padding:0.4em 1.0em;
+}
+.searchBox { position:relative; top:0px; left:0px; z-index:1;
+	border:1px solid #a8a8a5; margin-top:-2.0em; padding:3.0em 1.0em 2.0em 3.0em; }
+
+label {font-weight:bold; font-size:1.2em;}
+
+#pageBottom {background-color:#E8E6D3; width:700px; margin: 0; padding:26px 20px 20px 20px;}
+#pageBottom h4 {text-transform:uppercase; color:#2b2b4d; letter-spacing:0.02em; font-size:1.2em; margin:10px 0 -8px 0;}
+#pageBottom div.boxfoot {border-top:1px solid #dbdbe1;}
+div#focus {width:224px;  border:1px solid #cfcfd8; float:left;  margin-top:0px; background-color:#f6f5ed;  padding: 12px;}
+div#focus img { margin-left:-13px; margin-top:0px;}
+div#ecollections {width:184px; margin:0 15px 0 15px;  border:1px solid #cfcfd8; float:left;  background-color:#f6f5ed;  padding: 12px;}
+div#topicguides {width:184px;  border:1px solid #cfcfd8; float:left;  background-color:#f6f5ed;  padding: 12px;}
+#searchTips {margin-left:30px; margin-right:30px;}
+#searchTips h3 {margin-top:0;}
+dt {font-weight:bold;}
+#search2 input {margin-bottom:6px;}
+
+#footer {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#2B2A45 url(http://www.crl.edu/sites/default/themes/crl/images/backgrounds/footer.gif) repeat-x scroll left top;
+	color:#D1CFBD;
+	font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;
+	position:relative;
+}
+#footer ul {margin:0; padding:0;}
+#footer_bar {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(http://www-apps.crl.edu/images/backgrounds/footer_bar.gif) repeat-y scroll center top;
+	height:100%;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:1;
+}
+#footer_container { /*ID attributes defined in several places*/
+	z-index:100;
+	position:relative; /*width:780px;*/
+	margin:0 auto;
+	width:972px;
+}
+#footer a { font-weight:bold; color:#c3c2be; text-decoration:none; }
+#footer a:hover { background-color:#ffffff; color:#2d2d4d; text-decoration:none; }
+#footer_title {
+	font-size:1.1em;
+	padding:20px 0 5px;
+	text-align:right;
+	width:262px;
+}
+#footer_title a { color:#fff; text-decoration:none; }
+#footer_title a:hover { background-color:#fff; color:#2d2d4d; text-decoration:none;}
+#subfooter { border-top:1px solid #66667b; font-size:0.923em; padding:5px 0 80px; }
+#metanav { float:left; padding-right:20px !important; width:262px; list-style-type:none; }
+#metanav li { text-align:right; }
+#metanav li a { color:#fff; text-decoration:none; }
+#metanav a:hover { color:#2d2d4d; background-color:#ffffff; text-decoration:none; }
+#address { float:left; padding-left:20px; }
+#footer_nav { float:right; width:360px; }
+#footer_nav ul { list-style:none;/*new*/ width:170px; }
+#footer_nav .left { 	float:left; margin-right:20px; }
+#footer_nav .right { 	float:right; }
+
+
+
+	.holdingsCaption{ background-color:#CCCCCC; color:#2d2d4d; text-align:left; /*width:20%;*/
+		padding-left:3px;
+		border-bottom-style:solid; border-bottom-width:thin; border-bottom-color:#FFFFFF;
+	}
+	.holdingsData{
+		padding-left:5px; padding-right:5px;
+		border-bottom-style:solid; border-bottom-width:thin; border-bottom-color:#4e4f7f;
+	}
+
+	.apiNoRecordOrHolding{
+		font-weight:bolder; color:#BB0000; border:#BB0000 medium solid; padding:0px 2px 0px 2px;
+	}
+	.apiMergeNote{
+		font-weight:bold; border:#ffffff 1px solid; padding:2px;
+	}
+	.apiMergeNumber{
+		font-weight:bold;  color:#00BB00; background-color:#FFFFFF; border:#00BB00 thin solid; padding:2px;
+	}
+
+	#titleBox{ width:1100px; height:50px; position:relative; }
+	#titleCaption{ padding-left:5px; padding-right:70px; position:absolute; /*top:5px;*/ }
+	#titleData{ width:1100px; position:absolute; /*top:5px;*/ left:105px; }
+	#titleDataText{ /*width:1100px; position:absolute; top:5px; left:105px; */ }
+
+	#lccnBox{ width:1100px; height:50px; position:relative; }
+	#lccnCaption{ padding-left:5px; padding-right:59px; position:absolute; top:-30px; }
+	#lccnData{ width:1100px; position:absolute; /*top:-2px;*/ left:105px; }
+
+	#crlBox{ width:1100px; height:50px; position:relative; }
+	/* #crlBox_report{ width:1100px; height:50px; position:relative; }	*/
+	#crlCaption{ padding-left:5px; padding-right:44px; position:absolute; top:-60px;}
+	#crlData{ width:1100px; position:absolute; /*top:50px;*/ left:105px;}
+
+	#holdersBox{ width:1100px; height:50px; position:relative; }
+	#oclcDBcaption{ padding-left:5px; padding-right:40px; position:absolute; top:-90px;}
+	#oclcDBdata{ width:1100px; position:absolute; /*top:80px;*/ left:105px;}
+
+	#oclcAPIboxDB{ width:1100px; height:50px; position:relative; }
+	#oclcAPIcaption{ padding-left:5px; padding-right:36px; position:absolute; top:-120px;}
+	#oclcAPIdata{ width:1100px; position:absolute; /*top:110px;*/ left:105px;}
+
+		/* next are CLASSES not IDs */
+	.resultBox{  width:1100px; height:50px; position:relative; }
+
+	.apiDisplayBox { border:#CCCCCC thin solid; padding:3px; }
+	.apiDisplayHeader{ background-color:#CCCCCC; color:#2d2d4d; text-align:left;
+		padding-left:3px;
+		border-bottom:solid thin #FFFFFF;
+	}
+	.apiDataText{ border-bottom-style:solid; border-bottom-width:thin; border-bottom-color:#4e4f7f; }
+
+	.updateLink{ background-color:#CCCCCC; color:#2d2d4d;
+		border-bottom-style:solid; border-bottom-width:medium; border-bottom-color:#FFFFFF;
+		padding:0px 3px 0px 3px;
+	}
+
+
+	.boxData{ background-color:#FFFFFF; margin:10px 2px 10px 2px; padding:5px; border:5px solid #4e4f7f; }
+	.redBoxData{ margin:2px; padding:2px; border:3px solid #FF0000; }
+
+	.important{ font-weight:bold; }
+	.unimportant{ font-size:8pt; }
+	.alert{ font-weight:bold; background-color:#FFFF00; color:#FF0000; padding:2px; border:#FF0000 thin solid; }
+	.reverseAlert{ font-weight:bold; background-color:#FF0000; color:#FFFF00; padding:2px; border:#FF0000 thin solid; }
+	.littleAlert{ font-weight:bold; background-color:#FFFF00; color:#FF0000; }
+	.littleReverseAlert{ font-weight:bold; background-color:#FF0000; color:#FFFF00; border:#FF0000 thin solid; }
+
+	.highlightProcessing{ background-color:#ECF8E0;  padding:0px 2px 0px 2px;  }
+	.highlightDocumentation{ background-color:#CEE3F6; padding:2px; margin:2px; }
+	.highlightCode{ font-weight:bold; background-color:#FFFFFF; color:#000000; padding:2px; border:#4e4f7f thin solid; }
+	.highlightNumbers{  font-weight:bold; background-color:#e97100; padding:2px; }
+	.newData{ font-weight:bold; background-color:#da5856; padding:2px;}
+
+	.sortableData{ text-decoration:underline; cursor:pointer; }
+
+	.previousPagingLink{float:left; font-weight:bold; background-color:#CEE3F6; padding:5px; }
+	.previousPagingLink:hover { float:left; font-weight: bold; background-color: #FF0000; border: #FFFF00 thin solid; padding:5px;  cursor:pointer; }
+	.nextPagingLink	{float:right; background-color:#CEE3F6; font-weight:bold; padding:5px; }
+	.nextPagingLink:hover { float:right; font-weight: bold; background-color: #FF0000; border: #FFFF00 thin solid; padding:5px;  cursor:pointer; }
+	.processNavigationLink { background-color:#4e4f7f; color:#FFFFFF; text-align:center; padding:5px; }
+
+	.actionButton{ font-weight: bold; background-color:#CEE3F6; border:#FF0000 thin solid; padding: 2px;}
+	.actionButton:hover { font-weight: bold; background-color: #FF0000; border: #FFFF00 thin solid; cursor:pointer; }
+	.toggler{
+			font-size:small; font-weight:normal; color:#000000;
+			float:right;
+	}
+
+	#userTracking{ padding:2px; border:1px solid #2d2d4d; }
+
+
+	.pageHeader{ font-size:14pt; font-weight:bold;
+		/* text-align:center; */
+		padding:2px 5px 5px 2px;
+		background-color:#4e4f7f; color:#FFFFFF;
+	}
+	.smallPageHeader{ font-size:10pt; font-weight:bold;
+		/* text-align:center; */
+		padding:2px 5px 5px 2px;
+		background-color:#4e4f7f; color:#FFFFFF; }
+
+	.pubInfoHeader{ background-color:#CEE3F6; /*border:#000000 thin solid;*/ }
+
+	#issueInfo{ border:#4e4f7f thin solid; margin:5px 0px 5px 20px; padding:5px 5px 5px 5px;}
+	.pubData{ font-weight:bold; background-color:#FFFFFF; color:#000000; border:#4e4f7f thin solid; padding:0px 2px 0px 2px; }
+	.first_date{ font-weight:bold; color:#00BB00; border:#00BB00 thin solid; padding:0px 2px 0px 2px; }
+	.last_date{ font-weight:bold; color:#BB0000; border:#BB0000 thin solid; padding:0px 2px 0px 2px; }
+	.rawIssueData{ font-weight:bold; border:#e97100 thin solid; padding:0px 2px 0px 2px; }
+
+	#datesEnteredDisplay{
+		float:right;
+		margin:5px 0px 5px 20px; padding:5px 5px 5px 5px;
+		background-color:#ECF8E0;
+		border:3px solid #FF0000; /*2d2d4d*/
+	}
+
+		/* op0, op1 are for individual select options in the form select widget with id="frequency" */
+	#frequency{ float:right; background-color:#CEE3F6; font-weight:bold; padding:2px; }
+	.op0{ background-color:#ECF8E0; color:#000000; }
+	.op1{ background-color:#CEE3F6; color:#000000; }
+
+	.calendarTable{
+		float:left; clear:none; margin:10px;
+		width:30%; height:200px;
+		text-align:center; font-weight:bold;
+		/* bgcolor shd match calendarBlankDay bgcolor */
+		background-color:#485b2e; color: #2d2d4d;
+	}
+	.calendarMonthLabel{
+		/* color:#000000; background-color:#CEF6CE; */
+		background-color:#8ca061; color: #e9e6d3;
+	}
+	.calendarBlankDay{
+		/*background-color:#ECF8E0;*/
+		/* bgcolor shd match calendarTable bgcolor */
+		background-color:#485b2e;
+	}
+	.calendarRegularDay{
+		background-color:#e9e6d3; color:#000000;
+	}
+	.calendarTargetDay{
+		background-color:#e97100; color:#000000;
+	}
+
+
+	body{ background-color:#e5eade;
+		font-family:"Arial Unicode MS", Arial, serif;
+		/*font-family:"Courier New", Courier, monospace;*/
+		word-wrap:break-word; /*Safari + Firefox only: http://drupal.org/node/291384 */
+	}
